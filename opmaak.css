@@ -1,0 +1,53 @@
+html{
+    background-color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    display: block;
+    background-color: azure;
+    padding: 5px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width:80%
+}
+header{
+    background-color: lightgreen;
+    height: 130px;
+    padding: 5px;
+}
+footer{
+    background-color: lightgreen;
+    height: 50px;
+    padding: 5px;
+}
+li{
+    display: inline-block;
+    height: 25px;
+    width: 100px;
+    padding: 10px;
+    margin-left: -50px;
+    margin-right: 50px;
+    text-align: center;
+    color: white;
+}
+li:hover{
+    background-color: mintcream;
+}
+hr{
+    margin-bottom: -15px;
+}
+input, textarea{
+    display: block;
+    width: 400px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    box-shadow: 6px 3px 3px lightgreen;
+}
+textarea{
+    height: 150px;
+}
+input[type=submit]:active{
+    background-color: forestgreen;
+    color: white;
+}
